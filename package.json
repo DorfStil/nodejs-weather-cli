@@ -7,13 +7,13 @@
     "forecast",
     "weather"
   ],
-  "homepage": "https://github.com/DorfStil/weather#readme",
+  "homepage": "https://github.com/DorfStil/nodejs-weather-cli#readme",
   "bugs": {
-    "url": "https://github.com/DorfStil/weather/issues"
+    "url": "https://github.com/DorfStil/nodejs-weather-cli/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DorfStil/weather.git"
+    "url": "git+https://github.com/DorfStil/nodejs-weather-cli.git"
   },
   "license": "MIT",
   "author": "DorfStil",
