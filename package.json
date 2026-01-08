@@ -1,0 +1,46 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI util allows you to view the weather forecast",
+  "keywords": [
+    "weather",
+    "forecast",
+    "weather"
+  ],
+  "homepage": "https://github.com/DorfStil/weather#readme",
+  "bugs": {
+    "url": "https://github.com/DorfStil/weather/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DorfStil/weather.git"
+  },
+  "license": "MIT",
+  "author": "DorfStil",
+  "type": "module",
+  "main": "./src/entry.ts",
+  "bin": {
+    "weather": "./src/entry.ts"
+  },
+  "scripts": {
+    "start": "tsx ./src/entry.ts",
+    "check:ts": "tsc --noEmit",
+    "check:eslint": "eslint --max-warnings 0 ./src",
+    "fix:eslint": "eslint --fix --ext .ts,.tsx .",
+    "fix:prettier": "prettier --write ./src"
+  },
+  "dependencies": {
+    "axios": "1.13.2",
+    "chalk": "5.6.2",
+    "dotenv": "17.2.3",
+    "eslint": "9.39.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.2",
+    "@types/node": "25.0.3",
+    "prettier": "3.7.4",
+    "typescript-eslint": "8.52.0",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3"
+  }
+}
